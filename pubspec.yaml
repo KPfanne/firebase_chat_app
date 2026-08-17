@@ -1,0 +1,37 @@
+name: firebase_chat_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^4.13.0
+  cloud_firestore: ^6.8.0
+  provider: ^6.1.5+1
+  firebase_auth: ^6.5.7
+  email_validator: ^3.0.0
+  flutter_pw_validator: ^1.6.0
+  image_picker: ^1.2.3
+  path_provider: ^2.1.6
+  intl: ^0.20.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  change_app_package_name: ^1.5.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "lib/assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/icon/
