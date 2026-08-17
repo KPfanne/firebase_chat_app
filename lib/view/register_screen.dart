@@ -222,19 +222,19 @@ class _RegisterScreenState extends State<RegisterScreen> {
   Future<void> _submitForm(UserAuthService authService) async {
     if (_key.currentState!.validate() && isPasswordValid) {
       try {
-        log("Registrierung erfolgreich");
-        log(
-          "${mailController.text.trim()} ${nameController.text.trim()}",
-          name: "RegisterScreen",
-        );
         await authService.registerUser(
           name: nameController.text.trim(),
           email: mailController.text.trim(),
           password: passwordController.text.trim(),
         );
+        log("Registrierung erfolgreich");
+        if (!mounted) return;
         Navigator.pop(context);
       } catch (e) {
-        Exception(e);
+        if (!mounted) return;
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text("Registrierung fehlgeschlagen")),
+        );
       }
     } else {
       log("Nicht alle Felder korrekt ausgefüllt!");
