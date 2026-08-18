@@ -26,12 +26,9 @@ This is the most complete of my Flutter projects — it covers the full path fro
 
 ## Screenshots
 
-<!-- Screenshots hochladen und hier einbinden:
-     1. Ordner "screenshots" im Repo anlegen
-     2. PNGs per Drag & Drop auf GitHub hineinziehen
-     3. Zeilen unten einkommentieren und Dateinamen anpassen -->
 
-<!-- <img src="screenshots/Login.png" width="250"> <img src="screenshots/Registration.png" width="250"> <img src="screenshots/Contact_List.png" width="250"> <img src="screenshots/Chat.png" width="250"> -->
+
+<img src="screenshots/Login.PNG" width="250"> <img src="screenshots/Registration.PNG" width="250"> <img src="screenshots/Contact_List.PNG" width="250"> <img src="screenshots/Chat.PNG" width="250">
 
 ## How it works
 
