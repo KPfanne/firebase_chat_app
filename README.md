@@ -31,7 +31,7 @@ This is the most complete of my Flutter projects — it covers the full path fro
      2. PNGs per Drag & Drop auf GitHub hineinziehen
      3. Zeilen unten einkommentieren und Dateinamen anpassen -->
 
-<!-- <img src="screenshots/login.png" width="250"> <img src="screenshots/contacts.png" width="250"> <img src="screenshots/chat.png" width="250"> -->
+<!-- <img src="screenshots/Login.png" width="250"> <img src="screenshots/Registration.png" width="250"> <img src="screenshots/Contact_List.png" width="250"> <img src="screenshots/Chat.png" width="250"> -->
 
 ## How it works
 
