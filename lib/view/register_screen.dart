@@ -231,6 +231,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
         if (!mounted) return;
         Navigator.pop(context);
       } catch (e) {
+        log("Registrierung fehlgeschlagen: $e");
         if (!mounted) return;
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(content: Text("Registrierung fehlgeschlagen")),
